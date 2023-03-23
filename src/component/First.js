@@ -12,7 +12,7 @@ const First = () => {
 
   const fetchDetails = async()=>{
     console.log("fetch ");
-    const url = "/assets/uploads/files/files/others/ddugky_project.json";
+    const url = "https://dev.deepthought.education/assets/uploads/files/files/others/ddugky_project.json";
     let fetchdata = await fetch(url);
     console.log(fetchdata);
     let parsedData = await fetchdata.json();
